@@ -144,10 +144,10 @@
   resolved "https://registry.yarnpkg.com/@lukeed/ms/-/ms-2.0.1.tgz#3c2bbc258affd9cc0e0cc7828477383c73afa6ee"
   integrity sha512-Xs/4RZltsAL7pkvaNStUQt7netTkyxrS0K+RILcVr3TRMS/ToOg4I6uNfhB9SlGsnWBym4U+EaXq0f0cEMNkHA==
 
-"@socialbaking/vouch@^1.0.0-alpha.9":
-  version "1.0.0-alpha.9"
-  resolved "https://registry.yarnpkg.com/@socialbaking/vouch/-/vouch-1.0.0-alpha.9.tgz#5359b9251fff756e76139c5d06d3ced24fdfa006"
-  integrity sha512-D4aS+bDRtGn6VGk5YJ6j+RqpMVRD1Z17E9jep4abFd0JlTb27ucOeNAXEZJcUA0D7by3RFjrZmgneC5pnUX5QA==
+"@socialbaking/vouch@^1.0.0-alpha.10":
+  version "1.0.0-alpha.10"
+  resolved "https://registry.yarnpkg.com/@socialbaking/vouch/-/vouch-1.0.0-alpha.10.tgz#fd92e45ab1c656310ab58cf05e3c4357266e2bea"
+  integrity sha512-Udf0bu8t7ISNozwR6cLS7IsKw1gdSlUz1XsADRHg9BRpr5U56bXCv3rCLwxpsDNCKYc/9uzQkBnBBys3NdqNgg==
   dependencies:
     "@fastify/cors" "^8.2.1"
     "@fastify/request-context" "^4.2.0"
