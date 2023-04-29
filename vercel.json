@@ -1,0 +1,11 @@
+{
+  "buildCommand": "yarn build",
+  "framework": null,
+  "installCommand": "yarn install",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/api/index.js"
+    }
+  ]
+}
