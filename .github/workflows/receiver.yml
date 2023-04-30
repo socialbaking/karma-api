@@ -6,7 +6,11 @@ on:
 
 jobs:
   receiver:
+    runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
       - name: A repository update event received
         run: |
           git config --global user.name 'GitHub Action Dependency Updater'
