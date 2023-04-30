@@ -23,6 +23,21 @@
     ajv-formats "^2.1.1"
     fast-uri "^2.0.0"
 
+"@fastify/auth@^4.2.0":
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/@fastify/auth/-/auth-4.2.0.tgz#decfa350092cac68ac3bfbe37a6fadff6d519848"
+  integrity sha512-wcovETbvNHsNQv1fzbjyAeG+ViNYMI0/gTmWUP77hQgbkwPJpYn1iBLAkMmHFKrS6Ap/l9QFZChwV9lJvwRTCA==
+  dependencies:
+    fastify-plugin "^4.0.0"
+    reusify "^1.0.4"
+
+"@fastify/bearer-auth@^9.0.0":
+  version "9.0.0"
+  resolved "https://registry.yarnpkg.com/@fastify/bearer-auth/-/bearer-auth-9.0.0.tgz#9a75abcb1d54751dc04e97b37db5363e325c0f90"
+  integrity sha512-I1egwg1LRdIvhjL/P+3UEfyK7A3YTnN3goTyf8MJ+v7vVkwyyd8ieccFKI0SzEuxMmfQh/p4yNyLZWcMVwpInA==
+  dependencies:
+    fastify-plugin "^4.0.0"
+
 "@fastify/cors@^8.2.1":
   version "8.2.1"
   resolved "https://registry.yarnpkg.com/@fastify/cors/-/cors-8.2.1.tgz#dd348162bcbfb87dff4b492e2bef32d41244006a"
@@ -186,11 +201,13 @@
   resolved "https://registry.yarnpkg.com/@redis/time-series/-/time-series-1.0.4.tgz#af85eb080f6934580e4d3b58046026b6c2b18717"
   integrity sha512-ThUIgo2U/g7cCuZavucQTQzA9g9JbDDY2f64u3AbAoz/8vE2lt2U37LamDUVChhaDA3IRT9R6VvJwqnUfTJzng==
 
-"@socialbaking/vouch@^1.0.0-alpha.39":
-  version "1.0.0-alpha.39"
-  resolved "https://registry.yarnpkg.com/@socialbaking/vouch/-/vouch-1.0.0-alpha.39.tgz#a8bf2e56bbd8e36ffcbf43f799dcf7d68c89b205"
-  integrity sha512-CEHnDFt/W+97iLl0JeDbvfyf1+G6KshzDdXr0C1j9ch2yYGA7KIFlH071H4fhCcBixmH2Q9E9hRgSFEjWE5Mcw==
+"@socialbaking/vouch@^1.0.0-alpha.42":
+  version "1.0.0-alpha.42"
+  resolved "https://registry.yarnpkg.com/@socialbaking/vouch/-/vouch-1.0.0-alpha.42.tgz#e5be85268d78313d5d6e0a193f76997a58355352"
+  integrity sha512-uWwmQBgiOl7qAxlWj04qwso9i6bjLnP20pArr/JFyc58Gzc2OMcnMi4zRzi8qnWip4DyK/90eh8lyuMV2ZXNPg==
   dependencies:
+    "@fastify/auth" "^4.2.0"
+    "@fastify/bearer-auth" "^9.0.0"
     "@fastify/cors" "^8.2.1"
     "@fastify/helmet" "^10.1.0"
     "@fastify/request-context" "^4.2.0"
