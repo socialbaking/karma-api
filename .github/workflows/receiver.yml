@@ -1,0 +1,20 @@
+name: Receiver
+
+on:
+  repository_dispatch:
+    types: [repository_update_event]
+
+jobs:
+  receiver:
+    runs-on: ubuntu-latest
+    steps:
+      - name: A repository update event received
+        run: |
+          git config --global user.name 'GitHub Action Dependency Updater'
+          git config --global user.email 'action@users.noreply.github.com'
+          git checkout "${GITHUB_REF:11}"
+          yarn
+          yarn add @socialbaking/vouch
+          git add .
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update dependencies"
+          git push
