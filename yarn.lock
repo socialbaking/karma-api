@@ -201,10 +201,10 @@
   resolved "https://registry.yarnpkg.com/@redis/time-series/-/time-series-1.0.4.tgz#af85eb080f6934580e4d3b58046026b6c2b18717"
   integrity sha512-ThUIgo2U/g7cCuZavucQTQzA9g9JbDDY2f64u3AbAoz/8vE2lt2U37LamDUVChhaDA3IRT9R6VvJwqnUfTJzng==
 
-"@socialbaking/vouch@^1.0.0-alpha.49":
-  version "1.0.0-alpha.49"
-  resolved "https://registry.yarnpkg.com/@socialbaking/vouch/-/vouch-1.0.0-alpha.49.tgz#09aa70b43f8b78a18685308a4bfb51cd13e20a95"
-  integrity sha512-/+KyhgvrU7BK91kafM1Fa4P1vu77hf/Cp+oLpsEUkjI+MhG8u64DRsOFOD/yl5gnBAmV2hZqB/vU6NAwx5pKAg==
+"@socialbaking/vouch@^1.0.0-alpha.50":
+  version "1.0.0-alpha.50"
+  resolved "https://registry.yarnpkg.com/@socialbaking/vouch/-/vouch-1.0.0-alpha.50.tgz#05e63f6623a9cc5b2696242b0108967a91fb9781"
+  integrity sha512-R2thni9QdRj+ZKTx69xHg1f0asRpXsoBCvwramobbw+C9TWbODhis8xctdm6lkjbBQzbjSQyk2fScipT1ID43g==
   dependencies:
     "@fastify/auth" "^4.2.0"
     "@fastify/bearer-auth" "^9.0.0"
