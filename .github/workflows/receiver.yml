@@ -12,9 +12,10 @@ jobs:
         with:
           fetch-depth: 0
       - name: A repository update event received
+        # git email needs to be same as at least one email of a vercel member
         run: |
           git config --global user.name 'GitHub Action Dependency Updater'
-          git config --global user.email 'action@users.noreply.github.com'
+          git config --global user.email 'hello@fabiancook.dev'
           git checkout "${GITHUB_REF:11}"
           yarn
           yarn add @socialbaking/vouch
