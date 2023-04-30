@@ -186,10 +186,10 @@
   resolved "https://registry.yarnpkg.com/@redis/time-series/-/time-series-1.0.4.tgz#af85eb080f6934580e4d3b58046026b6c2b18717"
   integrity sha512-ThUIgo2U/g7cCuZavucQTQzA9g9JbDDY2f64u3AbAoz/8vE2lt2U37LamDUVChhaDA3IRT9R6VvJwqnUfTJzng==
 
-"@socialbaking/vouch@^1.0.0-alpha.29":
-  version "1.0.0-alpha.29"
-  resolved "https://registry.yarnpkg.com/@socialbaking/vouch/-/vouch-1.0.0-alpha.29.tgz#d46fadfee960b4a5f7f76fa60afc1966a2eae87e"
-  integrity sha512-6MnYjLjEsIhEyO5q3CaH+CK67R5jE7WVcmCgawNoeFT6adLFDwc4shcVK394DEh4Lzx0zvl90+8AyeHDi6dhSw==
+"@socialbaking/vouch@^1.0.0-alpha.30":
+  version "1.0.0-alpha.30"
+  resolved "https://registry.yarnpkg.com/@socialbaking/vouch/-/vouch-1.0.0-alpha.30.tgz#6e04c219e8bf2fb0903907d694e8c832e02aa863"
+  integrity sha512-1MznE1HezDicH1xNNXMM4gNIQ9ODomkAvk2d3lmxKw8vMdpfPwXYZ031bcwsOt9IYgJI5IfvkOkh7aNNOTvl0g==
   dependencies:
     "@fastify/cors" "^8.2.1"
     "@fastify/helmet" "^10.1.0"
