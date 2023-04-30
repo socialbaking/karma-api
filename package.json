@@ -9,7 +9,7 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "@socialbaking/vouch": "^1.0.0-alpha.51",
+    "@socialbaking/vouch": "^1.0.0-alpha.53",
     "dotenv": "^16.0.3"
   }
 }
