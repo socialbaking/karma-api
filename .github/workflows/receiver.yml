@@ -18,7 +18,7 @@ jobs:
           git config --global user.email 'hello@fabiancook.dev'
           git checkout "${GITHUB_REF:11}"
           yarn
-          yarn add @socialbaking/vouch
+          yarn add @socialbaking/pharmakarma
           git add .
           git diff --quiet && git diff --staged --quiet || git commit -m "Update dependencies"
           git push

@@ -1,8 +1,8 @@
-# vouch-api
+# pharmakarma-api
 
-Vercel deployment repository of [vouch](https://github.com/socialbaking/vouch)
+Vercel deployment repository of [pharmakarma](https://github.com/socialbaking/pharmakarma)
 
-See [api/index.js](api/index.js) for the usage of [@socialbaking/vouch](https://www.npmjs.com/package/@socialbaking/vouch)
+See [api/index.js](api/index.js) for the usage of [@socialbaking/pharmakarma](https://www.npmjs.com/package/@socialbaking/pharmakarma)
 
 Vercel supports just a single function to be the default export, which is used
 as a request handler. 
