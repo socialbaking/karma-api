@@ -1030,10 +1030,10 @@
   resolved "https://registry.yarnpkg.com/@sideway/pinpoint/-/pinpoint-2.0.0.tgz#cff8ffadc372ad29fd3f78277aeb29e632cc70df"
   integrity sha512-RNiOoTPkptFtSVzQevY/yWtZwf/RxyVnPy/OcA9HBM3MlGDnBEYL5B41H0MTn0Uec8Hi+2qUtTfG2WWZBmMejQ==
 
-"@socialbaking/pharmakarma@^1.0.0-alpha.19":
-  version "1.0.0-alpha.19"
-  resolved "https://registry.yarnpkg.com/@socialbaking/pharmakarma/-/pharmakarma-1.0.0-alpha.19.tgz#685ff83bbd20ae9b673ebca4a9dad3b77bc90618"
-  integrity sha512-G/GHwC2T/5Pu64KboxjP9zABUwbnCzcBbDhnIxRDCivnOXHlzV+O1lmtI7cqjxzcPvaluannMMICxl0EXvO28w==
+"@socialbaking/pharmakarma@^1.0.0-alpha.20":
+  version "1.0.0-alpha.20"
+  resolved "https://registry.yarnpkg.com/@socialbaking/pharmakarma/-/pharmakarma-1.0.0-alpha.20.tgz#ef81beb86fdd8e762d0158e962272033e008cc45"
+  integrity sha512-EpqFUIbSOCC1V0DtyucThzyzPv/Ec2t7g4mthVyohoXaJU3lQmh0AGFo2Pvi7ujHA6kERsNdAkHGDuQIvkZE9w==
   dependencies:
     "@fastify/auth" "^4.2.0"
     "@fastify/bearer-auth" "^9.0.0"
