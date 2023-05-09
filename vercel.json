@@ -10,5 +10,11 @@
   "installCommand": "yarn install",
   "github": {
     "silent": true
-  }
+  },
+  "crons": [
+    {
+      "path": "/api/background",
+      "schedule": "0 * * * *"
+    }
+  ]
 }
