@@ -1030,10 +1030,10 @@
   resolved "https://registry.yarnpkg.com/@sideway/pinpoint/-/pinpoint-2.0.0.tgz#cff8ffadc372ad29fd3f78277aeb29e632cc70df"
   integrity sha512-RNiOoTPkptFtSVzQevY/yWtZwf/RxyVnPy/OcA9HBM3MlGDnBEYL5B41H0MTn0Uec8Hi+2qUtTfG2WWZBmMejQ==
 
-"@socialbaking/pharmakarma@^1.0.0-alpha.41":
-  version "1.0.0-alpha.41"
-  resolved "https://registry.yarnpkg.com/@socialbaking/pharmakarma/-/pharmakarma-1.0.0-alpha.41.tgz#9a1dcf6ffa12597623e0bbe34346cf7da3f3c12f"
-  integrity sha512-MTUQWTGMx5cXWe9N0b9WVj/xNfEZwAIbCXxyEj4eCwvC39ubxpxi70etepHnqJhVFCh+sZhlNliHX4D+PfIyTg==
+"@socialbaking/pharmakarma@^1.0.0-alpha.42":
+  version "1.0.0-alpha.42"
+  resolved "https://registry.yarnpkg.com/@socialbaking/pharmakarma/-/pharmakarma-1.0.0-alpha.42.tgz#4f41beb896013f8f39df5d4380f1abb0ee092508"
+  integrity sha512-kj+FTbgqXm/0vGszyfelsIGaP1URE0sBQLEHrBDAzuqxJsgx8fGNiJWWv9fjHztK32nAsm9XNVz6S63uAyk8NA==
   dependencies:
     "@fastify/auth" "^4.2.0"
     "@fastify/bearer-auth" "^9.0.0"
@@ -1048,10 +1048,12 @@
     "@opentelemetry/api" "^1.4.1"
     "@opentelemetry/auto-instrumentations-node" "^0.36.6"
     "@opentelemetry/instrumentation-fastify" "^0.31.2"
+    "@types/luxon" "^3.3.0"
     "@upstash/redis" "^1.20.4"
     "@vercel/kv" "^0.1.1"
     "@virtualstate/promise" "^1.3.3"
     abort-controller "^3.0.0"
+    countries-and-timezones "^3.4.1"
     dotenv "^16.0.3"
     fastify "^4.17.0"
     fastify-blipp "^4.0.0"
@@ -1059,12 +1061,14 @@
     git-commit-info "^2.0.1"
     human-readable-ids "^1.0.4"
     json-schema-to-ts "^2.8.0"
+    luxon "^3.3.0"
     p-limit "^4.0.0"
     patch-package "^7.0.0"
     postinstall-postinstall "^2.1.0"
     redis "^4.6.6"
     redis-lock "^1.0.0"
     s-ago "^2.2.0"
+    simple-statistics "^7.8.3"
     tmp "^0.2.1"
     uuid "^8.3.2"
     whatwg-url "^9.1.0"
@@ -1247,6 +1251,11 @@
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/@types/long/-/long-4.0.2.tgz#b74129719fc8d11c01868010082d483b7545591a"
   integrity sha512-MqTGEo5bj5t157U6fA/BiDynNkn0YknVdh48CMPkTSpFTVmvao5UQmm7uEF6xBEo7qIMAlY/JSleYaE6VOdpaA==
+
+"@types/luxon@^3.3.0":
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/@types/luxon/-/luxon-3.3.0.tgz#a61043a62c0a72696c73a0a305c544c96501e006"
+  integrity sha512-uKRI5QORDnrGFYgcdAVnHvEIvEZ8noTpP/Bg+HeUzZghwinDlIS87DEenV5r1YoOF9G4x600YsUXLWZ19rmTmg==
 
 "@types/memcached@^2.2.6":
   version "2.2.7"
@@ -1593,6 +1602,11 @@ cookie@^0.5.0:
   version "0.5.0"
   resolved "https://registry.yarnpkg.com/cookie/-/cookie-0.5.0.tgz#d1f5d71adec6558c58f389987c366aa47e994f8b"
   integrity sha512-YZ3GUyn/o8gfKJlnlX7g7xq4gyO6OSuhGPKaaGssGB2qgDUS0gPgtTvoyZLTt9Ab6dC4hfc9dV5arkvc/OCmrw==
+
+countries-and-timezones@^3.4.1:
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/countries-and-timezones/-/countries-and-timezones-3.4.1.tgz#0ec2540f57e42f0f740eb2acaede786043347fe1"
+  integrity sha512-INeHGCony4XUUR8iGL/lmt9s1Oi+n+gFHeJAMfbV5hJfYeDOB8JG1oxz5xFQu5oBZoRCJe/87k1Vzue9DoIauA==
 
 cross-spawn@^5.0.1:
   version "5.1.0"
@@ -2202,6 +2216,11 @@ lru-cache@^6.0.0:
   dependencies:
     yallist "^4.0.0"
 
+luxon@^3.3.0:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/luxon/-/luxon-3.3.0.tgz#d73ab5b5d2b49a461c47cedbc7e73309b4805b48"
+  integrity sha512-An0UCfG/rSiqtAIiBPO0Y9/zAnHUZxAMiCpTd5h2smgsj7GGmcenvrvww2cqNA8/4A5ZrD1gJpHN2mIHZQF+Mg==
+
 merge-stream@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/merge-stream/-/merge-stream-2.0.0.tgz#52823629a14dd00c9770fb6ad47dc6310f2c1f60"
@@ -2750,6 +2769,11 @@ signal-exit@^3.0.0, signal-exit@^3.0.2:
   version "3.0.7"
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.7.tgz#a9a1767f8af84155114eaabd73f99273c8f59ad9"
   integrity sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==
+
+simple-statistics@^7.8.3:
+  version "7.8.3"
+  resolved "https://registry.yarnpkg.com/simple-statistics/-/simple-statistics-7.8.3.tgz#62998dd7786ba14fa27b07f4f3cd498466f7961a"
+  integrity sha512-JFvMY00t6SBGtwMuJ+nqgsx9ylkMiJ5JlK9bkj8AdvniIe5615wWQYkKHXe84XtSuc40G/tlrPu0A5/NlJvv8A==
 
 slash@^2.0.0:
   version "2.0.0"
