@@ -9,7 +9,7 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "@socialbaking/pharmakarma": "^1.0.0-alpha.52",
+    "@socialbaking/pharmakarma": "^1.0.0-alpha.53",
     "dotenv": "^16.0.3"
   }
 }
