@@ -1030,10 +1030,10 @@
   resolved "https://registry.yarnpkg.com/@sideway/pinpoint/-/pinpoint-2.0.0.tgz#cff8ffadc372ad29fd3f78277aeb29e632cc70df"
   integrity sha512-RNiOoTPkptFtSVzQevY/yWtZwf/RxyVnPy/OcA9HBM3MlGDnBEYL5B41H0MTn0Uec8Hi+2qUtTfG2WWZBmMejQ==
 
-"@socialbaking/pharmakarma@^1.0.0-alpha.55":
-  version "1.0.0-alpha.55"
-  resolved "https://registry.yarnpkg.com/@socialbaking/pharmakarma/-/pharmakarma-1.0.0-alpha.55.tgz#1b384279b8d8d7080e7fa9c71422100ef06a8764"
-  integrity sha512-u88g7kJ0knWjzOir0PW0IW4vcFsKki+30YwS4KZUaJoGbM7tnSOeIh0A1nhTi3t80EtnfWLsCOBymvYAUKv9Kw==
+"@socialbaking/pharmakarma@^1.0.0-alpha.56":
+  version "1.0.0-alpha.56"
+  resolved "https://registry.yarnpkg.com/@socialbaking/pharmakarma/-/pharmakarma-1.0.0-alpha.56.tgz#ee440636b7a15e85be36fedb19e1b9cebf608a5b"
+  integrity sha512-8y/90sQD7TLq8fywOd18Zbdm6RVaPFYYtmy0EmYp/BBxLKfXTNeyfpsGnZ1Xqbr9kg8m/DDtm3ZL9vfLU4bncg==
   dependencies:
     "@fastify/auth" "^4.2.0"
     "@fastify/bearer-auth" "^9.0.0"
@@ -1054,6 +1054,7 @@
     "@virtualstate/promise" "^1.3.3"
     abort-controller "^3.0.0"
     countries-and-timezones "^3.4.1"
+    discord-oauth2 "^2.11.0"
     dotenv "^16.0.3"
     fastify "^4.17.0"
     fastify-blipp "^4.0.0"
@@ -1642,6 +1643,11 @@ depd@2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/depd/-/depd-2.0.0.tgz#b696163cc757560d09cf22cc8fad1571b79e76df"
   integrity sha512-g7nH6P6dyDioJogAAGprGpCtVImJhpPk/roCzdb3fIh61/s/nPsfR6onyMwkCAR/OlC3yBC0lESvUoQEAssIrw==
+
+discord-oauth2@^2.11.0:
+  version "2.11.0"
+  resolved "https://registry.yarnpkg.com/discord-oauth2/-/discord-oauth2-2.11.0.tgz#799acc6777a216f8fbbf72d5ea29086eb4303f85"
+  integrity sha512-pIbgXm498f7vqNd8/7JwoLd36YMFOFASSJdqyCGdwQpaG7ULHu9nLyifpVXI1b88xvNLqQwqugS8jxkn8Ypd1Q==
 
 dotenv@^16.0.3:
   version "16.0.3"
