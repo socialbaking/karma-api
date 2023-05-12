@@ -1,1 +1,1 @@
-export { default } from "@socialbaking/pharmakarma/vercel/serverless";
+export { default } from "@socialbaking/karma/vercel/serverless";

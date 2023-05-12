@@ -1,8 +1,8 @@
-# pharmakarma-api
+# karma-api
 
-Vercel deployment repository of [pharmakarma](https://github.com/socialbaking/pharmakarma)
+Vercel deployment repository of [karma](https://github.com/socialbaking/karma)
 
-See [api/index.js](api/index.js) for the usage of [@socialbaking/pharmakarma](https://www.npmjs.com/package/@socialbaking/pharmakarma)
+See [api/index.js](api/index.js) for the usage of [@socialbaking/karma](https://www.npmjs.com/package/@socialbaking/karma)
 
 Vercel supports just a single function to be the default export, which is used
 as a request handler. 
