@@ -10,6 +10,7 @@
   "private": true,
   "dependencies": {
     "@socialbaking/karma": "^1.0.0-alpha.70",
+    "@socialbaking/pharmakarma": "^1.0.0-alpha.69",
     "dotenv": "^16.0.3"
   }
 }
