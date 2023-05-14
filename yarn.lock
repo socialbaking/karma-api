@@ -1101,10 +1101,10 @@
   resolved "https://registry.yarnpkg.com/@sideway/pinpoint/-/pinpoint-2.0.0.tgz#cff8ffadc372ad29fd3f78277aeb29e632cc70df"
   integrity sha512-RNiOoTPkptFtSVzQevY/yWtZwf/RxyVnPy/OcA9HBM3MlGDnBEYL5B41H0MTn0Uec8Hi+2qUtTfG2WWZBmMejQ==
 
-"@socialbaking/karma@^1.0.0-alpha.79":
-  version "1.0.0-alpha.79"
-  resolved "https://registry.yarnpkg.com/@socialbaking/karma/-/karma-1.0.0-alpha.79.tgz#ee483baf3f730d6659aa6162f5585755d3115f05"
-  integrity sha512-ZN1S+7Llea6SkFNVMSSVl18d1geXR8H8H8NLRrBGXnYzbqtqxfXY+Nrnt4s3Rr/Qr6InTfKxvCXOXa/qOG3ynw==
+"@socialbaking/karma@^1.0.0-alpha.80":
+  version "1.0.0-alpha.80"
+  resolved "https://registry.yarnpkg.com/@socialbaking/karma/-/karma-1.0.0-alpha.80.tgz#9b9055c8a3741c64b30e37c807c89c4af577a70e"
+  integrity sha512-XZET/TbgX2Uru+H+ff6jIUJkLID86+HXYjSZPpYLOAzUhbteEGaMtRufaInMhPHQlisSFwB/kChbSNQVJ2M8UQ==
   dependencies:
     "@fastify/auth" "^4.2.0"
     "@fastify/bearer-auth" "^9.0.0"
@@ -1120,6 +1120,7 @@
     "@opentelemetry/api" "^1.4.1"
     "@opentelemetry/auto-instrumentations-node" "^0.36.6"
     "@opentelemetry/instrumentation-fastify" "^0.31.2"
+    "@tailwindcss/forms" "^0.5.3"
     "@types/luxon" "^3.3.0"
     "@upstash/redis" "^1.20.4"
     "@vercel/kv" "^0.1.1"
@@ -1147,6 +1148,13 @@
     tmp "^0.2.1"
     uuid "^8.3.2"
     whatwg-url "^9.1.0"
+
+"@tailwindcss/forms@^0.5.3":
+  version "0.5.3"
+  resolved "https://registry.yarnpkg.com/@tailwindcss/forms/-/forms-0.5.3.tgz#e4d7989686cbcaf416c53f1523df5225332a86e7"
+  integrity sha512-y5mb86JUoiUgBjY/o6FJSFZSEttfb3Q5gllE4xoKjAAD+vBrnIhE4dViwUuow3va8mpH4s9jyUbUbrRGoRdc2Q==
+  dependencies:
+    mini-svg-data-uri "^1.2.3"
 
 "@types/accepts@*":
   version "1.3.5"
@@ -2491,6 +2499,11 @@ mimic-fn@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/mimic-fn/-/mimic-fn-2.1.0.tgz#7ed2c2ccccaf84d3ffcb7a69b57711fc2083401b"
   integrity sha512-OqbOk5oEQeAZ8WXWydlu9HJjz9WVdEIvamMCcXmuqUYjTknH/sqsWvhQ3vgwKFRR1HpjvNBKQ37nbJgYzGqGcg==
+
+mini-svg-data-uri@^1.2.3:
+  version "1.4.4"
+  resolved "https://registry.yarnpkg.com/mini-svg-data-uri/-/mini-svg-data-uri-1.4.4.tgz#8ab0aabcdf8c29ad5693ca595af19dd2ead09939"
+  integrity sha512-r9deDe9p5FJUPZAk3A59wGH7Ii9YrjjWw0jmw/liSbHl2CHiyXj6FcDXDu2K3TjVAXqiJdaw3xxwlZZr9E6nHg==
 
 minimatch@^3.0.4, minimatch@^3.1.1:
   version "3.1.2"
