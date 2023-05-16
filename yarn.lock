@@ -132,7 +132,7 @@
     http-errors "2.0.0"
     mime "^3.0.0"
 
-"@fastify/static@^6.0.0":
+"@fastify/static@^6.0.0", "@fastify/static@^6.10.1":
   version "6.10.1"
   resolved "https://registry.yarnpkg.com/@fastify/static/-/static-6.10.1.tgz#605e6758b7536089581bb59dbb096d80997327b6"
   integrity sha512-DNnG+5QenQcTQw37qk0/191STThnN6SbU+2XMpWtpYR3gQUfUvMax14jTT/jqNINNbCkQJaKMnPtpFPKo4/68g==
@@ -1130,10 +1130,10 @@
   resolved "https://registry.yarnpkg.com/@sideway/pinpoint/-/pinpoint-2.0.0.tgz#cff8ffadc372ad29fd3f78277aeb29e632cc70df"
   integrity sha512-RNiOoTPkptFtSVzQevY/yWtZwf/RxyVnPy/OcA9HBM3MlGDnBEYL5B41H0MTn0Uec8Hi+2qUtTfG2WWZBmMejQ==
 
-"@socialbaking/karma@^1.0.0-alpha.106":
-  version "1.0.0-alpha.106"
-  resolved "https://registry.yarnpkg.com/@socialbaking/karma/-/karma-1.0.0-alpha.106.tgz#b1c0a386e72774e4f1fc1851d08d84e10d22cfcc"
-  integrity sha512-fRP10hmw2H2OryXQf5j/cxjQydlP0JCaQqGcG+XM6sbGDl8ai5NCkaV8tK8rGdO3gL8Gu72TZqeDwUcSzlFoyg==
+"@socialbaking/karma@^1.0.0-alpha.107":
+  version "1.0.0-alpha.107"
+  resolved "https://registry.yarnpkg.com/@socialbaking/karma/-/karma-1.0.0-alpha.107.tgz#ee81c53d691fd34b70c29ab181ab86d6cab19102"
+  integrity sha512-bzDTotAKvVqiOuh5QilqOyBcQH2aJgdR9Z9kNtpik4txt2yBN+ATZB4IS1qGwNwg2blgpnGNDiuKDJQH9ZATLQ==
   dependencies:
     "@fastify/auth" "^4.2.0"
     "@fastify/bearer-auth" "^9.0.0"
@@ -1143,6 +1143,7 @@
     "@fastify/helmet" "^10.1.1"
     "@fastify/multipart" "^7.6.0"
     "@fastify/request-context" "^4.2.0"
+    "@fastify/static" "^6.10.1"
     "@fastify/swagger" "^8.3.1"
     "@fastify/swagger-ui" "^1.8.0"
     "@honeycombio/opentelemetry-node" "^0.4.0"
