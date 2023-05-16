@@ -1130,10 +1130,10 @@
   resolved "https://registry.yarnpkg.com/@sideway/pinpoint/-/pinpoint-2.0.0.tgz#cff8ffadc372ad29fd3f78277aeb29e632cc70df"
   integrity sha512-RNiOoTPkptFtSVzQevY/yWtZwf/RxyVnPy/OcA9HBM3MlGDnBEYL5B41H0MTn0Uec8Hi+2qUtTfG2WWZBmMejQ==
 
-"@socialbaking/karma@^1.0.0-alpha.104":
-  version "1.0.0-alpha.104"
-  resolved "https://registry.yarnpkg.com/@socialbaking/karma/-/karma-1.0.0-alpha.104.tgz#acf6102be937b498525ec02303cb5b8911eae954"
-  integrity sha512-XKT/v+ngH3YExO5JSPVRts2LNpipvdri50lXWTfHboEdDt8DtA12HrN8EFZIoQBRkqathgyHL1Y68kF8vx2tKQ==
+"@socialbaking/karma@^1.0.0-alpha.105":
+  version "1.0.0-alpha.105"
+  resolved "https://registry.yarnpkg.com/@socialbaking/karma/-/karma-1.0.0-alpha.105.tgz#87eaa948369f334640e98b87de053df98046b48b"
+  integrity sha512-jKZzpVSJ9QiPfhO0MnPlH86tpl2eJsY6uSrNxATuc/aM9lv0HQt/e5NnvsISaG/ky/zCKpWT8Xs4p2+1gyj7rA==
   dependencies:
     "@fastify/auth" "^4.2.0"
     "@fastify/bearer-auth" "^9.0.0"
@@ -1167,6 +1167,7 @@
     human-readable-ids "^1.0.4"
     json-schema-to-ts "^2.8.0"
     luxon "^3.3.0"
+    mime-types "^2.1.35"
     p-limit "^4.0.0"
     patch-package "^7.0.0"
     postinstall-postinstall "^2.1.0"
@@ -2765,7 +2766,7 @@ mime-db@1.52.0:
   resolved "https://registry.yarnpkg.com/mime-db/-/mime-db-1.52.0.tgz#bbabcdc02859f4987301c856e3387ce5ec43bf70"
   integrity sha512-sPU4uV7dYlvtWJxwwxHD0PuihVNiE7TyAbQ5SWxDCB9mUYvOgroQOwYQQOKPJ8CIbE+1ETVlOoK1UC2nU3gYvg==
 
-mime-types@^2.1.12:
+mime-types@^2.1.12, mime-types@^2.1.35:
   version "2.1.35"
   resolved "https://registry.yarnpkg.com/mime-types/-/mime-types-2.1.35.tgz#381a871b62a734450660ae3deee44813f70d959a"
   integrity sha512-ZDY+bPm5zTTF+YpCrAU9nK0UgICYPT0QtT1NZWFv4s++TNkcgVaT0g6+4R2uI4MjQjzysHB1zxuWL50hzaeXiw==
