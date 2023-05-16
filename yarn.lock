@@ -1130,10 +1130,10 @@
   resolved "https://registry.yarnpkg.com/@sideway/pinpoint/-/pinpoint-2.0.0.tgz#cff8ffadc372ad29fd3f78277aeb29e632cc70df"
   integrity sha512-RNiOoTPkptFtSVzQevY/yWtZwf/RxyVnPy/OcA9HBM3MlGDnBEYL5B41H0MTn0Uec8Hi+2qUtTfG2WWZBmMejQ==
 
-"@socialbaking/karma@^1.0.0-alpha.105":
-  version "1.0.0-alpha.105"
-  resolved "https://registry.yarnpkg.com/@socialbaking/karma/-/karma-1.0.0-alpha.105.tgz#87eaa948369f334640e98b87de053df98046b48b"
-  integrity sha512-jKZzpVSJ9QiPfhO0MnPlH86tpl2eJsY6uSrNxATuc/aM9lv0HQt/e5NnvsISaG/ky/zCKpWT8Xs4p2+1gyj7rA==
+"@socialbaking/karma@^1.0.0-alpha.106":
+  version "1.0.0-alpha.106"
+  resolved "https://registry.yarnpkg.com/@socialbaking/karma/-/karma-1.0.0-alpha.106.tgz#b1c0a386e72774e4f1fc1851d08d84e10d22cfcc"
+  integrity sha512-fRP10hmw2H2OryXQf5j/cxjQydlP0JCaQqGcG+XM6sbGDl8ai5NCkaV8tK8rGdO3gL8Gu72TZqeDwUcSzlFoyg==
   dependencies:
     "@fastify/auth" "^4.2.0"
     "@fastify/bearer-auth" "^9.0.0"
