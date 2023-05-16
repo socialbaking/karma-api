@@ -9,7 +9,7 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "@socialbaking/karma": "^1.0.0-alpha.109",
+    "@socialbaking/karma": "^1.0.0-alpha.110",
     "dotenv": "^16.0.3",
     "preact": "^10.13.2",
     "react": "^18.2.0",
