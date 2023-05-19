@@ -1246,10 +1246,10 @@
   resolved "https://registry.yarnpkg.com/@sideway/pinpoint/-/pinpoint-2.0.0.tgz#cff8ffadc372ad29fd3f78277aeb29e632cc70df"
   integrity sha512-RNiOoTPkptFtSVzQevY/yWtZwf/RxyVnPy/OcA9HBM3MlGDnBEYL5B41H0MTn0Uec8Hi+2qUtTfG2WWZBmMejQ==
 
-"@socialbaking/karma@^1.0.0-beta.6":
-  version "1.0.0-beta.6"
-  resolved "https://registry.yarnpkg.com/@socialbaking/karma/-/karma-1.0.0-beta.6.tgz#58ef6a21990096ca21bf583da9ab89c7f6aa5f97"
-  integrity sha512-1ywoYadj/rSTyOnM/i7TBSrcw/tSiNsi1yAHm5aYKTGnMuQePC4dxSMxDpjDp27SCRgUaixsf7JA/c55jGtfKg==
+"@socialbaking/karma@^1.0.0-beta.7":
+  version "1.0.0-beta.7"
+  resolved "https://registry.yarnpkg.com/@socialbaking/karma/-/karma-1.0.0-beta.7.tgz#ae510066c92a301535b4be87e0b3039a5fc69a5e"
+  integrity sha512-DwlwvhSD/Qr+Hxb00v2cTIat2ynn/1OvbUFGCfc7hjSmDRJzY8joV3fkjpsAkWCQfuGwtfkTPpd5hUnhN/PA/A==
   dependencies:
     "@authsignal/node" "^0.0.40"
     "@fastify/auth" "^4.2.0"
