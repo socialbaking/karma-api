@@ -12,6 +12,7 @@
     "@socialbaking/karma": "^1.0.0-beta.19",
     "cheerio": "^1.0.0-rc.12",
     "dotenv": "^16.0.3",
+    "fuzzy-search": "^3.2.1",
     "preact": "^10.13.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"

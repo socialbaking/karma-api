@@ -29,6 +29,10 @@
     {
       "path": "/api/background",
       "schedule": "0 * * * *"
+    },
+    {
+      "path": "/api/background?seed=true",
+      "schedule": "0 13 * * *"
     }
   ]
 }
