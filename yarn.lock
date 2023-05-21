@@ -1246,10 +1246,10 @@
   resolved "https://registry.yarnpkg.com/@sideway/pinpoint/-/pinpoint-2.0.0.tgz#cff8ffadc372ad29fd3f78277aeb29e632cc70df"
   integrity sha512-RNiOoTPkptFtSVzQevY/yWtZwf/RxyVnPy/OcA9HBM3MlGDnBEYL5B41H0MTn0Uec8Hi+2qUtTfG2WWZBmMejQ==
 
-"@socialbaking/karma@^1.0.0-beta.19":
-  version "1.0.0-beta.19"
-  resolved "https://registry.yarnpkg.com/@socialbaking/karma/-/karma-1.0.0-beta.19.tgz#d082e457feb47983f8144d151889a158914f0655"
-  integrity sha512-FWhWSc0+ajpuce9VAoaSz+GWX7/GFqdaVsCMdK2SThxl9XGHb724+b4JABdqeo4wIhC7/b8a2/L0N3Ywh8oVjQ==
+"@socialbaking/karma@^1.0.0-beta.20":
+  version "1.0.0-beta.20"
+  resolved "https://registry.yarnpkg.com/@socialbaking/karma/-/karma-1.0.0-beta.20.tgz#6c16b51eef8e61ef1dd65d5d8f89988b15bf8e13"
+  integrity sha512-U5FntHxVDdavu5gKnKo7SULHFIxmpaUaw9alWlWjouJs4uveqZ9kecJYPztRZN5xN7tkReftqKo7y/Knlqn7pg==
   dependencies:
     "@authsignal/node" "^0.0.40"
     "@fastify/auth" "^4.2.0"
@@ -1288,6 +1288,7 @@
     fastify "^4.17.0"
     fastify-blipp "^4.0.0"
     fastify-helmet "^7.1.0"
+    fuzzy-search "^3.2.1"
     git-commit-info "^2.0.1"
     human-readable-ids "^1.0.4"
     json-schema-to-ts "^2.8.0"
