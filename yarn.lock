@@ -1246,10 +1246,10 @@
   resolved "https://registry.yarnpkg.com/@sideway/pinpoint/-/pinpoint-2.0.0.tgz#cff8ffadc372ad29fd3f78277aeb29e632cc70df"
   integrity sha512-RNiOoTPkptFtSVzQevY/yWtZwf/RxyVnPy/OcA9HBM3MlGDnBEYL5B41H0MTn0Uec8Hi+2qUtTfG2WWZBmMejQ==
 
-"@socialbaking/karma@^1.0.0-beta.18":
-  version "1.0.0-beta.18"
-  resolved "https://registry.yarnpkg.com/@socialbaking/karma/-/karma-1.0.0-beta.18.tgz#e1b17abad970f864792ea177af6a8d166ce805f2"
-  integrity sha512-xVvNuSYJRPoE0VeOiXFxfF/8eUGTYzeUPov/MKLZDMtKy9AtznUzb44Zzgwas5B3e2SZ10opjfvncgm52A1isw==
+"@socialbaking/karma@^1.0.0-beta.19":
+  version "1.0.0-beta.19"
+  resolved "https://registry.yarnpkg.com/@socialbaking/karma/-/karma-1.0.0-beta.19.tgz#d082e457feb47983f8144d151889a158914f0655"
+  integrity sha512-FWhWSc0+ajpuce9VAoaSz+GWX7/GFqdaVsCMdK2SThxl9XGHb724+b4JABdqeo4wIhC7/b8a2/L0N3Ywh8oVjQ==
   dependencies:
     "@authsignal/node" "^0.0.40"
     "@fastify/auth" "^4.2.0"
@@ -1282,6 +1282,7 @@
     cheerio "^1.0.0-rc.12"
     countries-and-timezones "^3.4.1"
     csv "^6.3.0"
+    csv-parse "^5.3.10"
     discord-oauth2 "^2.11.0"
     dotenv "^16.0.3"
     fastify "^4.17.0"
