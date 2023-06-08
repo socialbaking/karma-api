@@ -2207,10 +2207,10 @@
   dependencies:
     tslib "^2.5.0"
 
-"@socialbaking/karma@^1.0.0-beta.32":
-  version "1.0.0-beta.32"
-  resolved "https://registry.yarnpkg.com/@socialbaking/karma/-/karma-1.0.0-beta.32.tgz#52181ef1a157f600f94adb26877a383418d46d34"
-  integrity sha512-atdK11hE/qtnFF599Dd7DnT9r/b32onKNehJaQialVir7qPdc50mfaxQM+Cc+mMa1LFOQ5T4bRpJQ781B2RWlw==
+"@socialbaking/karma@^1.0.0-beta.33":
+  version "1.0.0-beta.33"
+  resolved "https://registry.yarnpkg.com/@socialbaking/karma/-/karma-1.0.0-beta.33.tgz#bdf108ea9590a2d1fb014a3181e7b7dae7c0d3d4"
+  integrity sha512-i+GEBFCqJEHkfXHHhdQ+k2+mTbbsMMHbgg9IvUhypeFUHYZSA+X9x9gJz89MTJSuYr2YNfW1O5WYNT1i62vieQ==
   dependencies:
     "@authsignal/node" "^0.0.40"
     "@aws-sdk/client-s3" "^3.348.0"
