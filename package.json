@@ -9,7 +9,7 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "@socialbaking/karma": "^1.0.0-beta.71",
+    "@socialbaking/karma": "^1.0.0-beta.72",
     "cheerio": "^1.0.0-rc.12",
     "dotenv": "^16.0.3",
     "fuzzy-search": "^3.2.1",
