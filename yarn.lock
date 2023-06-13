@@ -2448,10 +2448,10 @@
   dependencies:
     tslib "^2.5.0"
 
-"@socialbaking/karma@^1.0.0-beta.73":
-  version "1.0.0-beta.73"
-  resolved "https://registry.yarnpkg.com/@socialbaking/karma/-/karma-1.0.0-beta.73.tgz#33a885521aa7fef97e7e82339ab252725a7f5b4c"
-  integrity sha512-b5mvoxGXEgWhWPKz18dUrLG3vz1dlLr+7MY11gXZ4y7y1WRrCgNFg6OacVPAkUD78nusgTlmB4nbQD80mFtNhg==
+"@socialbaking/karma@^1.0.0-beta.74":
+  version "1.0.0-beta.74"
+  resolved "https://registry.yarnpkg.com/@socialbaking/karma/-/karma-1.0.0-beta.74.tgz#1ccd2cdfb9036b1f1d594605bc57b1996758f4c6"
+  integrity sha512-CRV8f1Rvtt48ZtkavIsD9G6DvsLiQEBrrII28aE2a+qYxb1Ty0OikXnV8WMgGGz3cDzzh6mKwPL902KuG5BvlA==
   dependencies:
     "@authsignal/node" "^0.0.40"
     "@aws-sdk/client-s3" "^3.348.0"
@@ -2485,6 +2485,7 @@
     "@virtualstate/promise" "^1.3.3"
     abort-controller "^3.0.0"
     accepts "^1.3.8"
+    ajv "^8.12.0"
     aws4fetch "^1.0.17"
     cheerio "^1.0.0-rc.12"
     countries-and-timezones "^3.4.1"
@@ -2892,7 +2893,7 @@ ajv-formats@^2.1.1:
   dependencies:
     ajv "^8.0.0"
 
-ajv@^8.0.0, ajv@^8.10.0, ajv@^8.11.0:
+ajv@^8.0.0, ajv@^8.10.0, ajv@^8.11.0, ajv@^8.12.0:
   version "8.12.0"
   resolved "https://registry.yarnpkg.com/ajv/-/ajv-8.12.0.tgz#d1a0527323e22f53562c567c00991577dfbe19d1"
   integrity sha512-sRu1kpcO9yLtYxBKvqfTeh9KzZEwO3STyX1HT+4CaDzC6HpTGYhIhPIzj9XuKU7KYDwnaeh5hcOwjy1QuJzBPA==
