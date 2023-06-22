@@ -2908,10 +2908,10 @@
   dependencies:
     tslib "^2.5.0"
 
-"@socialbaking/karma@^1.0.0-beta.112":
-  version "1.0.0-beta.112"
-  resolved "https://registry.yarnpkg.com/@socialbaking/karma/-/karma-1.0.0-beta.112.tgz#1fef896d61fb3fac87bd99c23e50b3b63033faf7"
-  integrity sha512-FsAiAcm2dExclJHz42cI9M3mbrdQbCHxZdMfaazsklbEMQ1e84xT7H9rkftypCEnDDL9nNz0JBElbMUk44/+uA==
+"@socialbaking/karma@^1.0.0-beta.113":
+  version "1.0.0-beta.113"
+  resolved "https://registry.yarnpkg.com/@socialbaking/karma/-/karma-1.0.0-beta.113.tgz#2c0ddfef15832f69e8c5039bec38a8a0da3930d9"
+  integrity sha512-CsLOZu0T0Jli1qtA/tY0mNcy2vqX7t3TZdo+9xxfva6N4PPyu1UTLJfJeUZcEwMhv3NF11MD9oLEvnFjIpap/Q==
   dependencies:
     "@authsignal/browser" "^0.1.7"
     "@authsignal/node" "^0.0.40"
@@ -2968,6 +2968,7 @@
     luxon "^3.3.0"
     mime-types "^2.1.35"
     negotiator "^0.6.3"
+    outliers "^0.0.3"
     p-limit "^4.0.0"
     patch-package "^7.0.0"
     postinstall-postinstall "^2.1.0"
@@ -5389,6 +5390,11 @@ os-tmpdir@~1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/os-tmpdir/-/os-tmpdir-1.0.2.tgz#bbe67406c79aa85c5cfec766fe5734555dfa1274"
   integrity sha512-D2FR03Vir7FIu45XBY20mTb+/ZSWB00sjU9jdQXt83gDrI4Ztz5Fs7/yy74g2N5SVQY4xY1qDr4rNddwYRVX0g==
+
+outliers@^0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/outliers/-/outliers-0.0.3.tgz#4d8329bf25340495b628d3997016525d097dd5b8"
+  integrity sha512-llzMndHLe3bT5myeO5qiySIusEN+zd+Eq1YLXWbe2/FC2l26AmWPRw0ji7heI0azubWB6NEM87xU24y/CL99Iw==
 
 p-finally@^1.0.0:
   version "1.0.0"
