@@ -2908,10 +2908,10 @@
   dependencies:
     tslib "^2.5.0"
 
-"@socialbaking/karma@^1.0.0-beta.113":
-  version "1.0.0-beta.113"
-  resolved "https://registry.yarnpkg.com/@socialbaking/karma/-/karma-1.0.0-beta.113.tgz#2c0ddfef15832f69e8c5039bec38a8a0da3930d9"
-  integrity sha512-CsLOZu0T0Jli1qtA/tY0mNcy2vqX7t3TZdo+9xxfva6N4PPyu1UTLJfJeUZcEwMhv3NF11MD9oLEvnFjIpap/Q==
+"@socialbaking/karma@^1.0.0-beta.114":
+  version "1.0.0-beta.114"
+  resolved "https://registry.yarnpkg.com/@socialbaking/karma/-/karma-1.0.0-beta.114.tgz#a49194db7be829eb5d1f375a9683915add05744c"
+  integrity sha512-KLRg50r/KdnF0dRkrsTi8pXYFVeowVINSytLikoFItk224v8zIOvnGLiGXmoTTHsX+3772ihPLX2FU/Jjg54vg==
   dependencies:
     "@authsignal/browser" "^0.1.7"
     "@authsignal/node" "^0.0.40"
