@@ -1953,10 +1953,10 @@
   dependencies:
     "@octokit/openapi-types" "^17.2.0"
 
-"@opennetwork/logistics@^1.0.0-alpha.57":
-  version "1.0.0-alpha.57"
-  resolved "https://registry.yarnpkg.com/@opennetwork/logistics/-/logistics-1.0.0-alpha.57.tgz#af273917a2780b10cdbde0ee04fa411263dae0f2"
-  integrity sha512-8RpmgwwJpQXV0HRcsG+weYJ4bx+sS5vsnojP3fe+NwB44roYk8Mrpwf+aLaUbK2WbvB0gMDN1qR3UeDaBeNNOQ==
+"@opennetwork/logistics@^1.0.0-alpha.59":
+  version "1.0.0-alpha.60"
+  resolved "https://registry.yarnpkg.com/@opennetwork/logistics/-/logistics-1.0.0-alpha.60.tgz#5aac2b64ded0f28206a69a21b5e9f5f8cd11579f"
+  integrity sha512-gc7BXyl21P8fAkHfw33sxlStZspV1QAqo9kIdiLfNwE04bLz9Fpoy4O2BfaTbiYkF3FP6cV6HKLw4hPMe7xmIQ==
   dependencies:
     "@authsignal/browser" "^0.1.7"
     "@authsignal/node" "^0.0.43"
@@ -2914,10 +2914,10 @@
   dependencies:
     tslib "^2.5.0"
 
-"@socialbaking/karma@^1.0.0-beta.116":
-  version "1.0.0-beta.116"
-  resolved "https://registry.yarnpkg.com/@socialbaking/karma/-/karma-1.0.0-beta.116.tgz#c39d327e0d42a58dc73f06b4827e347303d7eb12"
-  integrity sha512-4ICR8d5skKNAalixo4yleJRyR12jp042Mk0d5k7FZL4XuJa9R+cBLMNjdfGiVlaIjnU91XAIppwNJ8ZWTMTCKQ==
+"@socialbaking/karma@^1.0.0-beta.117":
+  version "1.0.0-beta.117"
+  resolved "https://registry.yarnpkg.com/@socialbaking/karma/-/karma-1.0.0-beta.117.tgz#8a167571f262ddc4e27db433ca34e828043da8c6"
+  integrity sha512-M3b7LM0TAgKfIwgtQ7QtiKU6EJ+KDAmgFacYCFccEJBoQEux1Llp3JAAiuEFZhpoawunbgfwBVu+g1rOXdHW+w==
   dependencies:
     "@authsignal/browser" "^0.1.7"
     "@authsignal/node" "^0.0.40"
@@ -2941,7 +2941,7 @@
     "@kvs/types" "^2.1.1"
     "@octokit/request" "6.2.4"
     "@octokit/rest" "^19.0.8"
-    "@opennetwork/logistics" "^1.0.0-alpha.57"
+    "@opennetwork/logistics" "^1.0.0-alpha.59"
     "@opentelemetry/api" "^1.4.1"
     "@opentelemetry/auto-instrumentations-node" "^0.36.6"
     "@opentelemetry/instrumentation-fastify" "^0.31.2"
